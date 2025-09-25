@@ -1,0 +1,223 @@
+export const blogPosts = [
+  {
+    id: "custom-lsass-dumpers",
+    title: "Beyond Mimikatz: The Art of Developing Custom LSASS Dumpers",
+    date: "Sep 19, 2025",
+    readTime: "5 min read",
+    slug: "https://medium.com/@itzsanskarr/beyond-mimikatz-the-art-of-developing-custom-lsass-dumpers-d43b276985af",
+    description: "Techniques and considerations for building custom LSASS dumpers.",
+    tags: ["Windows", "LSASS", "Offense"],
+    isExternal: true
+  },
+  {
+    id: "manipulating-access-tokens",
+    title: "Manipulating Access Tokens: How Adversaries Leverage Windows Security Contexts",
+    date: "Sep 18, 2025",
+    readTime: "4 min read",
+    slug: "https://medium.com/@itzsanskarr/manipulating-access-tokens-how-adversaries-leverage-windows-security-contexts-2bf7ed38e55f",
+    description: "Understanding token manipulation and abuse in Windows environments.",
+    tags: ["Windows", "Tokens", "Privilege"],
+    isExternal: true
+  },
+  {
+    id: "dll-injection-mspaint-meow",
+    title: "How to Make mspaint Say “Meow”: A Playful Guide to DLL Injection",
+    date: "Sep 13, 2025",
+    readTime: "4 min read",
+    slug: "https://medium.com/bugbountywriteup/how-to-make-mspaint-say-meow-a-playful-guide-to-dll-injection-edf748eb9558",
+    description: "A lighthearted walkthrough of classic DLL injection concepts.",
+    tags: ["Windows", "DLL Injection", "Malware"],
+    isExternal: true
+  },
+  {
+    id: "apc-injection",
+    title: "APC Injection: Because Why Let Threads Sleep Peacefully?",
+    date: "Sep 11, 2025",
+    readTime: "4 min read",
+    slug: "https://medium.com/system-weakness/apc-injection-because-why-let-threads-sleep-peacefully-32ba6cd1ca40",
+    description: "Abusing Asynchronous Procedure Calls to execute code in target threads.",
+    tags: ["APC", "Injection", "Windows"],
+    isExternal: true
+  },
+  {
+    id: "hijacking-windows-processes",
+    title: "Hijacking Windows Processes: A Step-By-Step Guide",
+    date: "Sep 9, 2025",
+    readTime: "4 min read",
+    slug: "https://medium.com/bugbountywriteup/hijacking-windows-processes-a-step-by-step-guide-4a1d3e234da4",
+    description: "Practical techniques for process hijacking on Windows.",
+    tags: ["Windows", "Process", "Hijacking"],
+    isExternal: true
+  },
+  {
+    id: "inside-the-peb",
+    title: "Inside the PEB: How Malware Resolves APIs Without Imports",
+    date: "Sep 2, 2025",
+    readTime: "7 min read",
+    slug: "https://medium.com/system-weakness/inside-the-peb-how-malware-resolves-apis-without-imports-81f7d03bcfc5",
+    description: "Using the Process Environment Block to locate APIs dynamically.",
+    tags: ["PEB", "API Resolve", "Windows"],
+    isExternal: true
+  },
+  {
+    id: "writing-yara-rules",
+    title: "Hunting Malware Like a Pro: A Hands-On Guide to Writing YARA Rules",
+    date: "Aug 25, 2025",
+    readTime: "4 min read",
+    slug: "https://medium.com/@itzsanskarr/hunting-malware-like-a-pro-a-hands-on-guide-to-writing-yara-rules-aa4f7780a95c",
+    description: "Practical guidance on crafting effective YARA rules for detection.",
+    tags: ["YARA", "Detection", "Threat Hunting"],
+    isExternal: true
+  },
+  {
+    id: "manual-shellcode-windows",
+    title: "Kernel32 Kung Fu: Manual Shellcode on Windows",
+    date: "Aug 5, 2025",
+    readTime: "5 min read",
+    slug: "https://medium.com/@itzsanskarr/kernel32-kung-fu-manual-shellcode-on-windows-ddc770d49b87",
+    description: "Manual mapping and execution strategies for shellcode on Windows.",
+    tags: ["Shellcode", "Windows", "Manual Mapping"],
+    isExternal: true
+  },
+  {
+    id: "diy-edr",
+    title: "How to Ruin Your Weekend: Building a DIY EDR",
+    date: "Jul 28, 2025",
+    readTime: "17 min read",
+    slug: "https://medium.com/bugbountywriteup/how-to-ruin-your-weekend-building-a-diy-edr-a8f6dc6f8da4",
+    description: "Designing and prototyping a homegrown endpoint detection system.",
+    tags: ["EDR", "Detection", "Engineering"],
+    isExternal: true
+  },
+  {
+    id: "edr-evasion",
+    title: "The Sentinel’s Blind Spot: A Guide to EDR Evasion",
+    date: "Jul 25, 2025",
+    readTime: "8 min read",
+    slug: "https://medium.com/@itzsanskarr/the-sentinels-blind-spot-a-guide-to-edr-evasion-577083673c16",
+    description: "Evasion tactics and techniques against modern EDR solutions.",
+    tags: ["EDR", "Evasion", "Red Team"],
+    isExternal: true
+  },
+  {
+    id: "ditching-the-debugger",
+    title: "Ditching The Debugger",
+    date: "Jul 14, 2025",
+    readTime: "14 min read",
+    slug: "https://medium.com/@itzsanskarr/ditching-the-debugger-2bb09eea3101",
+    description: "Techniques to analyze and debug binaries without traditional debuggers.",
+    tags: ["Debugging", "Reverse Engineering"],
+    isExternal: true
+  },
+  {
+    id: "anti-vm-checks-hardware",
+    title: "Before the Boom: Anti-VM Checks to Slip Past Dynamic Analysis via Hardware Resource Profiling",
+    date: "Jul 3, 2025",
+    readTime: "4 min read",
+    slug: "https://medium.com/@itzsanskarr/before-the-boom-01-anti-vm-checks-to-slip-past-dynamic-analysis-via-hardware-resource-profiling-713209a019ac",
+    description: "Hardware footprint checks to evade virtualized analysis environments.",
+    tags: ["Anti-VM", "Evasion", "Malware"],
+    isExternal: true
+  },
+  {
+    id: "malware-in-cpp-01",
+    title: "0x01 — Building Malware in C++: Memory Execution, Shellcode, and AV Evasion Basics",
+    date: "May 18, 2025",
+    readTime: "4 min read",
+    slug: "https://medium.com/system-weakness/0x01-building-malware-in-c-memory-execution-shellcode-and-av-evasion-basics-2044552ec6db",
+    description: "Foundational C++ malware concepts and anti-detection strategies.",
+    tags: ["C++", "Malware", "AV Evasion"],
+    isExternal: true
+  },
+  {
+    id: "linux-rootkits-ftrace",
+    title: "Linux Rootkits: Breaking into the Kernel with an Ftrace Hooked LKM",
+    date: "Feb 19, 2025",
+    readTime: "6 min read",
+    slug: "https://medium.com/@itzsanskarr/linux-rootkits-breaking-into-the-kernel-with-an-ftrace-hooked-lkm-abc541c8f6e4",
+    description: "Building a Linux kernel module that hooks via ftrace for stealth.",
+    tags: ["Linux", "Rootkit", "Kernel"],
+    isExternal: true
+  },
+  {
+    id: "craft-windows-shellcode",
+    title: "Craft Your Own Windows x86/64 Shellcode",
+    date: "Feb 16, 2025",
+    readTime: "15 min read",
+    slug: "https://medium.com/bugbountywriteup/craft-your-own-windows-x86-64-shellcode-31b321d1933c",
+    description: "From fundamentals to crafting functional Windows shellcode.",
+    tags: ["Windows", "Shellcode", "Assembly"],
+    isExternal: true
+  },
+  {
+    id: "binary-patching-guide",
+    title: "Binary Patching: A Complete Step-by-Step Guide",
+    date: "Dec 8, 2024",
+    readTime: "4 min read",
+    slug: "https://medium.com/bugbountywriteup/binary-patching-a-complete-step-by-step-guide-fac337985094",
+    description: "A structured approach to patching binaries safely and effectively.",
+    tags: ["Binary", "Patching", "Reverse Engineering"],
+    isExternal: true
+  },
+  {
+    id: "vscode-tunnels-apts",
+    title: "VSCode Tunnels: APTs’ New Favorite Backdoor for Remote Access",
+    date: "Nov 27, 2024",
+    readTime: "4 min read",
+    slug: "https://medium.com/system-weakness/vscode-tunnels-apts-new-favorite-backdoor-for-remote-access-3cb95bfb1cff",
+    description: "Exploring abuse of VSCode Tunnels by advanced threat actors.",
+    tags: ["APTs", "Backdoor", "VSCode"],
+    isExternal: true
+  },
+  {
+    id: "wannacry-deep-dive",
+    title: "Reverse Engineering WannaCry Ransomware: A Deep Dive",
+    date: "Oct 16, 2024",
+    readTime: "5 min read",
+    slug: "https://medium.com/bugbountywriteup/reverse-engineering-wannacry-ransomware-a-deep-dive-86ee4a8d7c7a",
+    description: "Dissecting the components and propagation of WannaCry.",
+    tags: ["Ransomware", "WannaCry", "Reverse Engineering"],
+    isExternal: true
+  },
+  {
+    id: "dynamic-analysis-03",
+    title: "Basic Dynamic Analysis for Malware 03",
+    date: "Sep 28, 2024",
+    readTime: "4 min read",
+    slug: "https://medium.com/@itzsanskarr/basic-dynamic-analysis-for-malware-03-2a5fd2f5fea7",
+    description: "Hands-on techniques for dynamic malware analysis (part 3).",
+    tags: ["Dynamic Analysis", "Malware"],
+    isExternal: true
+  },
+  {
+    id: "iat-analysis-02",
+    title: "Basic Static Analysis for Malware 02 Analyzing the Import Address Table (IAT)",
+    date: "Sep 27, 2024",
+    readTime: "4 min read",
+    slug: "https://medium.com/@itzsanskarr/basic-static-analysis-for-malware-02-75fb92b933e5",
+    description: "Understanding and analyzing the IAT during static analysis.",
+    tags: ["Static Analysis", "IAT", "Malware"],
+    isExternal: true
+  },
+  {
+    id: "static-analysis-01",
+    title: "Basic Static Analysis for Malware 01",
+    date: "Sep 26, 2024",
+    readTime: "2 min read",
+    slug: "https://medium.com/@itzsanskarr/basic-static-analysis-for-malware-01-45fad927a7e2",
+    description: "Introductory methods for static analysis of malware.",
+    tags: ["Static Analysis", "Malware"],
+    isExternal: true
+  },
+  {
+    id: "static-analysis-00",
+    title: "Basic Static Analysis for Malware 00",
+    date: "Sep 26, 2024",
+    readTime: "2 min read",
+    slug: "https://medium.com/@itzsanskarr/basic-static-analysis-for-malware-00-710910c3c505",
+    description: "Foundational setup and concepts for static malware analysis.",
+    tags: ["Static Analysis", "Malware"],
+    isExternal: true
+  },
+  
+];
