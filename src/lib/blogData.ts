@@ -7,7 +7,8 @@ export const blogPosts = [
     slug: "https://medium.com/@itzsanskarr/beyond-mimikatz-the-art-of-developing-custom-lsass-dumpers-d43b276985af",
     description: "Techniques and considerations for building custom LSASS dumpers.",
     tags: ["Windows", "LSASS", "Offense"],
-    isExternal: true
+    isExternal: true,
+    isComingSoon: false
   },
   {
     id: "manipulating-access-tokens",
@@ -17,7 +18,8 @@ export const blogPosts = [
     slug: "https://medium.com/@itzsanskarr/manipulating-access-tokens-how-adversaries-leverage-windows-security-contexts-2bf7ed38e55f",
     description: "Understanding token manipulation and abuse in Windows environments.",
     tags: ["Windows", "Tokens", "Privilege"],
-    isExternal: true
+    isExternal: true,
+    isComingSoon: false
   },
   {
     id: "dll-injection-mspaint-meow",
@@ -27,7 +29,8 @@ export const blogPosts = [
     slug: "https://medium.com/bugbountywriteup/how-to-make-mspaint-say-meow-a-playful-guide-to-dll-injection-edf748eb9558",
     description: "A lighthearted walkthrough of classic DLL injection concepts.",
     tags: ["Windows", "DLL Injection", "Malware"],
-    isExternal: true
+    isExternal: true,
+    isComingSoon: false
   },
   {
     id: "apc-injection",
@@ -37,7 +40,8 @@ export const blogPosts = [
     slug: "https://medium.com/system-weakness/apc-injection-because-why-let-threads-sleep-peacefully-32ba6cd1ca40",
     description: "Abusing Asynchronous Procedure Calls to execute code in target threads.",
     tags: ["APC", "Injection", "Windows"],
-    isExternal: true
+    isExternal: true,
+    isComingSoon: false
   },
   {
     id: "hijacking-windows-processes",
@@ -47,7 +51,8 @@ export const blogPosts = [
     slug: "https://medium.com/bugbountywriteup/hijacking-windows-processes-a-step-by-step-guide-4a1d3e234da4",
     description: "Practical techniques for process hijacking on Windows.",
     tags: ["Windows", "Process", "Hijacking"],
-    isExternal: true
+    isExternal: true,
+    isComingSoon: false
   },
   {
     id: "inside-the-peb",
@@ -57,7 +62,8 @@ export const blogPosts = [
     slug: "https://medium.com/system-weakness/inside-the-peb-how-malware-resolves-apis-without-imports-81f7d03bcfc5",
     description: "Using the Process Environment Block to locate APIs dynamically.",
     tags: ["PEB", "API Resolve", "Windows"],
-    isExternal: true
+    isExternal: true,
+    isComingSoon: false
   },
   {
     id: "writing-yara-rules",
@@ -67,7 +73,8 @@ export const blogPosts = [
     slug: "https://medium.com/@itzsanskarr/hunting-malware-like-a-pro-a-hands-on-guide-to-writing-yara-rules-aa4f7780a95c",
     description: "Practical guidance on crafting effective YARA rules for detection.",
     tags: ["YARA", "Detection", "Threat Hunting"],
-    isExternal: true
+    isExternal: true,
+    isComingSoon: false
   },
   {
     id: "manual-shellcode-windows",
@@ -77,7 +84,8 @@ export const blogPosts = [
     slug: "https://medium.com/@itzsanskarr/kernel32-kung-fu-manual-shellcode-on-windows-ddc770d49b87",
     description: "Manual mapping and execution strategies for shellcode on Windows.",
     tags: ["Shellcode", "Windows", "Manual Mapping"],
-    isExternal: true
+    isExternal: true,
+    isComingSoon: false
   },
   {
     id: "diy-edr",
@@ -87,7 +95,8 @@ export const blogPosts = [
     slug: "https://medium.com/bugbountywriteup/how-to-ruin-your-weekend-building-a-diy-edr-a8f6dc6f8da4",
     description: "Designing and prototyping a homegrown endpoint detection system.",
     tags: ["EDR", "Detection", "Engineering"],
-    isExternal: true
+    isExternal: true,
+    isComingSoon: false
   },
   {
     id: "edr-evasion",
@@ -97,7 +106,8 @@ export const blogPosts = [
     slug: "https://medium.com/@itzsanskarr/the-sentinels-blind-spot-a-guide-to-edr-evasion-577083673c16",
     description: "Evasion tactics and techniques against modern EDR solutions.",
     tags: ["EDR", "Evasion", "Red Team"],
-    isExternal: true
+    isExternal: true,
+    isComingSoon: false
   },
   {
     id: "ditching-the-debugger",
@@ -107,7 +117,8 @@ export const blogPosts = [
     slug: "https://medium.com/@itzsanskarr/ditching-the-debugger-2bb09eea3101",
     description: "Techniques to analyze and debug binaries without traditional debuggers.",
     tags: ["Debugging", "Reverse Engineering"],
-    isExternal: true
+    isExternal: true,
+    isComingSoon: false
   },
   {
     id: "anti-vm-checks-hardware",
@@ -117,7 +128,8 @@ export const blogPosts = [
     slug: "https://medium.com/@itzsanskarr/before-the-boom-01-anti-vm-checks-to-slip-past-dynamic-analysis-via-hardware-resource-profiling-713209a019ac",
     description: "Hardware footprint checks to evade virtualized analysis environments.",
     tags: ["Anti-VM", "Evasion", "Malware"],
-    isExternal: true
+    isExternal: true,
+    isComingSoon: false
   },
   {
     id: "malware-in-cpp-01",
@@ -127,7 +139,8 @@ export const blogPosts = [
     slug: "https://medium.com/system-weakness/0x01-building-malware-in-c-memory-execution-shellcode-and-av-evasion-basics-2044552ec6db",
     description: "Foundational C++ malware concepts and anti-detection strategies.",
     tags: ["C++", "Malware", "AV Evasion"],
-    isExternal: true
+    isExternal: true,
+    isComingSoon: false
   },
   {
     id: "linux-rootkits-ftrace",
@@ -137,7 +150,8 @@ export const blogPosts = [
     slug: "https://medium.com/@itzsanskarr/linux-rootkits-breaking-into-the-kernel-with-an-ftrace-hooked-lkm-abc541c8f6e4",
     description: "Building a Linux kernel module that hooks via ftrace for stealth.",
     tags: ["Linux", "Rootkit", "Kernel"],
-    isExternal: true
+    isExternal: true,
+    isComingSoon: false
   },
   {
     id: "craft-windows-shellcode",
@@ -147,7 +161,8 @@ export const blogPosts = [
     slug: "https://medium.com/bugbountywriteup/craft-your-own-windows-x86-64-shellcode-31b321d1933c",
     description: "From fundamentals to crafting functional Windows shellcode.",
     tags: ["Windows", "Shellcode", "Assembly"],
-    isExternal: true
+    isExternal: true,
+    isComingSoon: false
   },
   {
     id: "binary-patching-guide",
@@ -157,7 +172,8 @@ export const blogPosts = [
     slug: "https://medium.com/bugbountywriteup/binary-patching-a-complete-step-by-step-guide-fac337985094",
     description: "A structured approach to patching binaries safely and effectively.",
     tags: ["Binary", "Patching", "Reverse Engineering"],
-    isExternal: true
+    isExternal: true,
+    isComingSoon: false
   },
   {
     id: "vscode-tunnels-apts",
@@ -167,7 +183,8 @@ export const blogPosts = [
     slug: "https://medium.com/system-weakness/vscode-tunnels-apts-new-favorite-backdoor-for-remote-access-3cb95bfb1cff",
     description: "Exploring abuse of VSCode Tunnels by advanced threat actors.",
     tags: ["APTs", "Backdoor", "VSCode"],
-    isExternal: true
+    isExternal: true,
+    isComingSoon: false
   },
   {
     id: "wannacry-deep-dive",
@@ -177,7 +194,8 @@ export const blogPosts = [
     slug: "https://medium.com/bugbountywriteup/reverse-engineering-wannacry-ransomware-a-deep-dive-86ee4a8d7c7a",
     description: "Dissecting the components and propagation of WannaCry.",
     tags: ["Ransomware", "WannaCry", "Reverse Engineering"],
-    isExternal: true
+    isExternal: true,
+    isComingSoon: false
   },
   {
     id: "dynamic-analysis-03",
@@ -187,7 +205,8 @@ export const blogPosts = [
     slug: "https://medium.com/@itzsanskarr/basic-dynamic-analysis-for-malware-03-2a5fd2f5fea7",
     description: "Hands-on techniques for dynamic malware analysis (part 3).",
     tags: ["Dynamic Analysis", "Malware"],
-    isExternal: true
+    isExternal: true,
+    isComingSoon: false
   },
   {
     id: "iat-analysis-02",
@@ -197,7 +216,8 @@ export const blogPosts = [
     slug: "https://medium.com/@itzsanskarr/basic-static-analysis-for-malware-02-75fb92b933e5",
     description: "Understanding and analyzing the IAT during static analysis.",
     tags: ["Static Analysis", "IAT", "Malware"],
-    isExternal: true
+    isExternal: true,
+    isComingSoon: false
   },
   {
     id: "static-analysis-01",
@@ -207,7 +227,8 @@ export const blogPosts = [
     slug: "https://medium.com/@itzsanskarr/basic-static-analysis-for-malware-01-45fad927a7e2",
     description: "Introductory methods for static analysis of malware.",
     tags: ["Static Analysis", "Malware"],
-    isExternal: true
+    isExternal: true,
+    isComingSoon: false
   },
   {
     id: "static-analysis-00",
@@ -217,7 +238,8 @@ export const blogPosts = [
     slug: "https://medium.com/@itzsanskarr/basic-static-analysis-for-malware-00-710910c3c505",
     description: "Foundational setup and concepts for static malware analysis.",
     tags: ["Static Analysis", "Malware"],
-    isExternal: true
+    isExternal: true,
+    isComingSoon: false
   },
   
 ];
