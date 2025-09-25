@@ -28,7 +28,12 @@ const projects: Project[] = [
       "The implementations are written in C++ and reflect methods often used by threat actors, with educational focus on understanding techniques and defenses.",
     link: "https://github.com/sanskar-sudo/CPP-For-Malware-Development",
     fallbackStars: 1,
-    tags: ["C++", "Malware", "Evasion", "Reverse Engineering"]
+    tags: ["C++", "Malware", "Evasion", "Reverse Engineering"],
+    features: [
+      "Custom LSASS dumpers and token manipulation techniques",
+      "Inline API resolution and PEB-walking examples",
+      "EDR evasion building blocks and sandbox checks"
+    ]
   },
   {
     id: "rottentomato-edr",
@@ -39,7 +44,12 @@ const projects: Project[] = [
       "Starts with a basic kernel driver and progressively adds more advanced security features, illustrating EDR concepts end-to-end.",
     link: "https://github.com/sanskar-sudo/rottenTomato-EDR-",
     fallbackStars: 2,
-    tags: ["Windows", "EDR", "Kernel", "Security"]
+    tags: ["Windows", "EDR", "Kernel", "Security"],
+    features: [
+      "User-mode sensor and driver communication",
+      "Event collection pipeline and basic detections",
+      "Telemetry persistence and lightweight rules"
+    ]
   },
   {
     id: "snortify",
