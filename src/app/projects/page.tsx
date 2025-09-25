@@ -112,7 +112,7 @@ export default function ProjectsPage() {
             animate="show"
             className="space-y-12"
           >
-            {projects.map((project) => (
+            {projects.map((project: Project) => (
               <motion.div
                 key={project.id}
                 variants={item}
