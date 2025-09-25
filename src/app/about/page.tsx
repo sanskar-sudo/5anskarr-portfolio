@@ -10,6 +10,14 @@ import { motion } from 'framer-motion';
 import { useState, useCallback } from 'react';
 
 export default function AboutPage() {
+  type ContactDetail = {
+    name: string;
+    value: string;
+    href: string;
+    icon: JSX.Element;
+    copyable?: boolean;
+  };
+
   const socialLinks = [
     {
       name: 'Twitter',
@@ -28,18 +36,20 @@ export default function AboutPage() {
     },
   ];
 
-  const contactDetails = [
+  const contactDetails: ContactDetail[] = [
     {
       name: 'Twitter / DM',
       value: '@5anskarr',
       href: 'https://x.com/5anskarr',
       icon: <Twitter className="h-5 w-5 text-purple-400" />,
+      copyable: false,
     },
     {
       name: 'Mail',
       value: '5anskarr@proton.me',
       href: 'mailto:5anskarr@proton.me',
       icon: <Mail className="h-5 w-5 text-purple-400" />,
+      copyable: true,
     },
   ];
 
