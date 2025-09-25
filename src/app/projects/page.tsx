@@ -7,7 +7,18 @@ import { Github, ArrowUpRight } from "lucide-react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-const projects = [
+type Project = {
+  id: string;
+  title: string;
+  description: string;
+  longDescription: string;
+  link: string;
+  fallbackStars: number;
+  tags: string[];
+  features?: string[];
+};
+
+const projects: Project[] = [
   {
     id: "cpp-for-malware-development",
     title: "CPP-For-Malware-Development",
